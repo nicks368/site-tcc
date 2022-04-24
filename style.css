@@ -1,10 +1,20 @@
+
+@font-face {
+    font-family: 'OCR';
+    src: url('OCR\ A\ Extended\ Regular.ttf') format('truetype');
+    
+}
+
 .navbar{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(206, 206, 206);
+    background-image: linear-gradient(to bottom, #542C72, #6C3A92, #9751CC );
     padding: 15px;
+    font-family: 'OCR';
+    font-weight: normal;
+    color: white;
 }
 
 .navbar a{
@@ -14,12 +24,17 @@
 
 .logo {
     margin-right: 50px;
+    font-size: larger;
 }
 
 .list {
     list-style: none;
     display: flex;
     gap: 25px;
+}
+
+.list a {
+    font-size: large;
 }
 
 #toggler, 
