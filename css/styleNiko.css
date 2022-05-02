@@ -109,7 +109,7 @@ nav {
     }
 
     .class-form .formulario {
-        width: 75%;
+        width: 70%;
         min-height: 65vh;
     }
 
@@ -350,10 +350,23 @@ nav {
     color: white;
 }
 
+.mostrar-senha {
+    display: flex;
+    top: -50px;
+    float: right;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 4vh;
+    height: 0;
+    
+}
+
 .botao {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .botao button {
