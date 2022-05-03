@@ -1,6 +1,9 @@
 var mostrarSenha1 = document.getElementById('mostrar-senha1')
 var mostrarSenha2 = document.getElementById('mostrar-senha2')
 
+mostrarSenha1.style.opacity = "0.5"
+mostrarSenha2.style.opacity = "0.5"
+
 mostrarSenha1.addEventListener('click', function(){
 
     let senha = document.getElementById('senha')
@@ -10,7 +13,7 @@ mostrarSenha1.addEventListener('click', function(){
         this.style.opacity = "1"
     }else {
         senha.type = "password"
-        this.style.opacity = ".4"
+        this.style.opacity = "0.5"
     }
 
 })
@@ -24,7 +27,7 @@ mostrarSenha2.addEventListener('click', function(){
         this.style.opacity = "1"
     }else {
         senha.type = "password"
-        this.style.opacity = ".4"
+        this.style.opacity = "0.5"
     }
 
 })
