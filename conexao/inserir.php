@@ -15,7 +15,7 @@
     
         if ($consulta->rowCount() > 0) {
                 $_SESSION['mensagem'] = "Você ja se cadastrou para receber informações!";
-                header("Location: ../index.php");
+                header("Location: ../index.html");
         } else {
             //Cadastrando um novo
             $str_sql = "INSERT INTO tbInfos (email, nome)";
@@ -29,11 +29,11 @@
             if($str_salvar->execute()){
                 //Salvo com sucesso
                 $_SESSION['mensagem'] = "Obrigado por se cadastrar!";
-                header("Location: ../index.php");
+                header("Location: ../index.html");
                 //echo "cadastrado com sucesso";
             }else {
                 //Ocorreu um erro
-                header("Location: ../index.php");
+                header("Location: ../index.html");
                 //echo "Houve problemas!";  
             }
         } 

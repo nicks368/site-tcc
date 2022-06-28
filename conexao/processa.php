@@ -7,7 +7,7 @@
     if (empty($email) or empty($nome)) {
         
         $_SESSION['mensagem'] = "Preencha todos os campos!";
-        header("Location: ../index.php");
+        header("Location: ../index.html");
 
     }else {
         salvarDados($email ,$nome,);
