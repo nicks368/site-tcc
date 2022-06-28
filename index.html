@@ -5,9 +5,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> BioVolve </title>
-        <link rel="stylesheet" href="css/styleKevin.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/logo-nav.png">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     </head>
-    <body>
+    <body id="home">
         <div class="nav-espaco"></div>
         <header> 
             <nav class="navbar">                
@@ -19,60 +21,268 @@
                 </div>
                 <ul class="nav-list">
                     <li id="link-home"><a href="#home"> Home </a></li>
-                    <li id="link-projetos"><a href="#projetos"> Projetos </a></li>
-                    <li id="link-doar"><a href="#doar"> Doar</a></li>
                     <li id="link-sobre"><a href="#sobre"> Sobre Nós </a></li>
-                    <li id="link-suporte"><a href="#suporte"> Suporte </a></li>
-                    <li style="float:right"><a class="active" href="cadastro.html">Entrar</a></li>
+                    <li id="link-projetos"><a href="#projetos"> Projetos </a></li>
+                    <li id="link-doar"><a href="#info"> Informações</a></li>
                 </ul>
             </nav>
         </header>
         <div class="banner-espaco">
-
+            <img src="img/home.png" class="banner-img">
         </div>
-        
-        <section id="home">
-            <div class="container">    
+        <div class="imagem-titulo">
+            <img src="./img/titulo-home.png">
+        </div> 
+        <div class="degrade"></div>
+        <section id="sobre">
+            <div class="bg-sobre">
+                <img src="img/Tela 2 - Sobre Nós.png" class="bg-sobre-img">
+            </div>
+            <div class="text-container">
                 <div class="text">
-                    <h1>BioVolve</h1>
-                    <br>
-                    <h2></h2>
-                    Somos uma empresa que foi criada com o íntuito de utilizar a tecnologia
-                    para cuidar e melhorar o meio ambiente sem prejudicar a natureza.
-                </div>  
-                <div class="banner">
-                    <img src="img/Ativo 15.png" class="img-banner">
+                    <h1 class="titulo">Sobre Nós</h1>
+                   
+                    <h3 class="subtitulo1">Bem-vindo(a)!</h3>
+                    <p class="conteudo">Somos a BioVolve, empresa criada por sete 
+                    desenvolvedores a fim de tornar o mundo 
+                    um lugar melhor onde a tecnologia evolui 
+                    junto com a natureza e não contra ela.</p>
+                    
+                    
+                    <h2 class="subtitulo2">O começo de tudo...</h2>
+                    <p class="conteudo">A ideia da empresa teve início em 2021, quando 
+                    o nível de desmatamento e agressão contra a 
+                    natureza teve um aumento significativo, 
+                    prejudicando não só os seres humanos mas também 
+                    os animais, e com esse aumento, tivemos a ideia 
+                    de criar uma empresa tecnológica ambiental <span style="font-weight: bold;">onde 
+                    possamos ajudar a natureza e diminuir os danos 
+                    contra os seres humanos e os animais.</span></p>
                 </div>
-            </div> 
+            </div>    
+        </section>
+        <section id="membros">
+            <div class="container-membros">
+                <div class="text-membros">
+                    Conheça a equipe que deu origem a BioVolve!!
+                </div>
+            </div>
+            <div class="swiper mySwiper container-carrossel">
+                <div class="swiper-wrapper">
+                        <div class="card-membros swiper-slide">
+                            <div class="midCard">
+                                <img src="img/interrogaçao.jpg" class="imgCard">
+                            </div>
+                            <div class="bottomCard">
+                                <div class="nomeCard"> Fulaninho </div>
+                                <div class="funcaoCard"> Desenvolvedor </div> 
+                            </div>
+                        </div>
+                        <div class="card-membros swiper-slide">
+                            <div class="midCard">
+                                <img src="img/interrogaçao.jpg" class="imgCard">
+                            </div>
+                            <div class="bottomCard">
+                                <div class="nomeCard"> Fulaninho </div>
+                                <div class="funcaoCard"> Desenvolvedor </div> 
+                            </div>
+                        </div>
+                        <div class="card-membros swiper-slide">
+                            <div class="midCard">
+                                <img src="img/interrogaçao.jpg" class="imgCard">
+                            </div>
+                            <div class="bottomCard">
+                                <div class="nomeCard"> Fulaninho </div>
+                                <div class="funcaoCard"> Desenvolvedor </div> 
+                            </div>
+                        </div>
+                        <div class="card-membros swiper-slide">
+                            <div class="midCard">
+                                <img src="img/interrogaçao.jpg" class="imgCard">
+                            </div>
+                            <div class="bottomCard">
+                                <div class="nomeCard"> Fulaninho </div>
+                                <div class="funcaoCard"> Desenvolvedor </div> 
+                            </div>
+                        </div>
+                        <div class="card-membros swiper-slide">
+                            <div class="midCard">
+                                <img src="img/interrogaçao.jpg" class="imgCard">
+                            </div>
+                            <div class="bottomCard">
+                                <div class="nomeCard"> Fulaninho </div>
+                                <div class="funcaoCard"> Desenvolvedor </div> 
+                            </div>
+                        </div>
+                        <div class="card-membros swiper-slide">
+                            <div class="midCard">
+                                <img src="img/interrogaçao.jpg" class="imgCard">
+                            </div>
+                            <div class="bottomCard">
+                                <div class="nomeCard"> Fulaninho </div>
+                                <div class="funcaoCard"> Desenvolvedor </div> 
+                            </div>
+                        </div>
+                        <div class="card-membros swiper-slide">
+                            <div class="midCard">
+                                <img src="img/interrogaçao.jpg" class="imgCard">
+                            </div>
+                            <div class="bottomCard">
+                                <div class="nomeCard"> Fulaninho </div>
+                                <div class="funcaoCard"> Desenvolvedor </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"> </div>
+                </div> 
+            </div>
+        </section>       
+        <section id="valores">
+            <div class="bg-valores">
+                <img src="img/missão, visão, valores - fundo.png" class="bg-valores-img">
+            </div>
+            <div class="container-valores">
+                <div class="valores-geral">
+                    <div class="titulo-valores">Missão</div>
+                    <div class="icon-valores">
+                        <img src="img/missão - icone.png"class="img-missao">
+                    </div>
+                    <div class="texto-valores">Ser uma empresa de credibilidade que apresenta 
+                        ideias modernas para contribuir a favor da sustentabilidade do 
+                        ecossistema.
+                    </div>
+                </div>
+                <div class="valores-geral">
+                    <div class="titulo-valores">Visão</div>
+                    <div class="icon-valores">
+                        <img src="img/visão - icone.png"class="img-missao">
+                    </div>
+                    <div class="texto-valores">Consolidar nossa qualidade de aplicação global 
+                        de ferramentas mobile e recursos digitais a favor do meio ambiente.
+                    </div>
+                </div>
+                <div class="valores-geral">
+                    <div class="titulo-valores">Valores</div>
+                    <div class="icon-valores">
+                        <img src="img/valores - icone.png"class="img-missao">
+                    </div>
+                    <div class="texto-valores">Trabalhar com a prática de inovação, 
+                        responsabilidade, diversidade, qualidade, ética, respeito e 
+                        honestidade.
+                    </div>
+                </div>
+                <div class="tela-branca"></div>
+            </div>
         </section>
         <section id="projetos">
-            <div class="container2">
-                <div class="text2"> 
-                    Conheça nossos projetos e faça parte da BioVolve também!
-                </div>
-                <div class="card">
-                    <div class="topCard">
-                        <h1> LeafTi </h1>
-                        <span class="descricao"> Em Breve </span>
-                    </div>
-                    <div class="midCard">
-                        <img src="img/interrogaçao.jpg" class="img-card"/>
-                    </div>
-                    <div class= "bottomCard"> 
-                    <input type="button" class="btnCard" value="Ver Produto"> 
-                    </div>  
+        <div class="degrade-preto"></div>       
+            <div class="bg-projetos">
+                <img src="img/Tela 5 - Projetos.png" class="bg-projetos-img">
+            </div>
+            <div class="text-container">
+                <div class="text-projetos">
+                    <h1 class="titulo-projetos">Projetos</h1>
+                    <p class="conteudo-projetos">Nessa seção iremos organizar e mostrar para você 
+                        alguns projetos tecnológicos e digitais da BioVolve, com a inteção 
+                        de melhorar a qualidade de vida na Terra e auxiliar a natureza em seu 
+                        redesenvolvimento.
+                    </p>
                 </div>
             </div> 
+            <div class="card-container">
+                <div class=" card-projetos">
+                    <div class="card-logo">
+                      <img src="img/LeafTi - logo 1.png" class="logo-app1">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">LeafTi</h5>
+                        <p class="card-text">Cuide, Plante e Refloreste</p>
+                        <a href="index.html"><button type="submit" class="btn-saiba-projeto"> Saiba mais</button></a> 
+                    </div>
+                </div>
+            </div>
+            <!-- <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
         </section>
-        <section id="doar">
-            Doar
+        <section id="info">
+            <div class="bg-info">
+                <img src="img/Tela 6 - Doar.png" class="bg-valores-img">
+            </div>
+            <div class="form-content">
+                <form method="post" action="./conexao/processa.php">
+                    <section id="campos">
+                        <div class="titulo-form">Deseja receber atualizações sobre futuros projetos?</div>
+                        <input type="text" name="nome" class="campo-form" placeholder="Nome">
+                        <input type="email" name="email" class="campo-form" placeholder="E-mail">
+                    </section>
+                    <section id="box">
+                        <label class="form-control">
+                            <input class="checkbox-info" type="checkbox" name="checkbox" />
+                            <label class="check" for="checkbox-info"> Concordo com os termos
+                                 de políticas de privacidade </label>    
+                        </label>
+                    </section>
+                    
+                    <section id="botoes">
+                        <button type="submit" class="btn-enviar-info">Enviar</button>
+                    </section>
+                </form>
+            </div>
         </section>
-        <section id="sobre">
-            Sobre Nós 
-        </section>
-        <section id="suporte">
-            Suporte
-        </section>
-    <script src="js/mobile-nav.js"></script>
+        <footer>
+            <section class="rodape">
+            <div class="social"><a href="#"><i class="icon fa-brands fa-instagram"></i></a><a href="https://github.com/biovolve"><i class="icon fa-brands fa-github"></i></a><a href="#"><i class="icon fa-brands fa-facebook"></i></i></a></div>
+                <ul class="lista">
+                    <li class="item-lista"><a href="#home">| Home |</a></li>
+                    <li class="item-lista"><a href="#sobre">Sobre Nós |</a></li>
+                    <li class="item-lista"><a href="#projetos">Projetos |</a></li>
+                    <li class="item-lista"><a href="#">Termos de Privacidade |</a></li>
+                </ul>
+                <p class="copyright">© Biovolve 2022</p>
+    
+            </section>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/b827b3e951.js" crossorigin="anonymous"></script>
+        <script src="js/mobile-nav.js"></script>
+        <script src="js/slider.js"></script>
+        <script   script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
     </body>
 </html>

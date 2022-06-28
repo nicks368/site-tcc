@@ -28,6 +28,8 @@ class MobileNavBar {
     });
   }
 
+  
+
     init() {
         if (this.mobileMenu) {
             this.addClickEvent();
